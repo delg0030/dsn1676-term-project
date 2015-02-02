@@ -20,3 +20,17 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+.main {
+    background-color: #99FFFF;
+}
+
+
+.clouds {
+left: calc(50% - 50px);
+  position: absolute;
+  top: calc(50% - 50px);
+  width: 100px;
+  -webkit-animation: clouds-move 6s ease-in-out infinite;
+  animation: clouds-move 6s ease-in-out infinite;
+}
