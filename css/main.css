@@ -21,6 +21,29 @@ html {
     box-sizing: inherit;
 }
 
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 110%;
+    }
+
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 120%;
+    }
+
+}
+    
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size: 130%;
+    }
+    
+}
 
 .billboard {
     background-color: black;
@@ -32,8 +55,8 @@ html {
   position: absolute;
   top: 100px;
   width: 500px;
-  -webkit-animation: clouds-move 3s ease-in-out infinite alternate;
-  animation: clouds-move 3s ease-in-out infinite alternate;
+  -webkit-animation: clouds-move 5s ease-in-out infinite alternate;
+  animation: clouds-move 5s ease-in-out infinite alternate;
 }
 
 .secondcloud {
@@ -41,27 +64,81 @@ html {
   position: absolute;
   top: 100px;
   width: 500px;
-  -webkit-animation: secondcloud-move 3s ease-in-out infinite alternate;
-  animation: secondcloud-move 3s ease-in-out infinite alternate;
+  -webkit-animation: secondcloud-move 5s ease-in-out infinite alternate;
+  animation: secondcloud-move 5s ease-in-out infinite alternate;
 }
 
+.name {
+font-family: 'Sansita One', cursive;
+color: #FFFF00;
+position: absolute;
+top: 200px;
+left: 600px;
+height: 100%;
+width: 100%;
+-webkit-animation: star-scale 2s ease-in-out infinite alternate;
+  animation: star-scale 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes star-scale {
+  from { -webkit-transform: scale(1, 1); }
+  to { -webkit-transform: scale(1.1, 1.1); }
+}
+
+@keyframes star-scale {
+  from { transform: scale(1, 1); }
+  to { transform: scale(1.1, 1.1); }
+}
+
+
 @-webkit-keyframes clouds-move {
-  0% { -webkit-transform: translateX(0); }
-  100% { -webkit-transform: translateX(-80px); }
+    0% { -webkit-transform: translateX(0); }
+    100% { -webkit-transform: translateX(-200px); }
 }
 
 @keyframes clouds-move {
-  0% { transform: translate(0); }
-  100% { transform: translate(-80px); }
+    0% { transform: translate(0); }
+    100% { transform: translate(-200px); }
 }
 
 @-webkit-keyframes secondcloud-move {
   0% { -webkit-transform: translateX(0); }
-  100% { -webkit-transform: translateX(80px); }
+  100% { -webkit-transform: translateX(200px); }
 }
 
 @keyframes secondcloud-move {
   0% { transform: translate(0); }
-  100% { transform: translate(80px); }
+  100% { transform: translate(200px); }
+}
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media only screen and (min-width: 38em) {
+
+    
+.nav {
+        text-align: right;
+    }
+    
+
+
+}
+    
+@media only screen and (min-width: 60em) {
+    
+    
 }
 
