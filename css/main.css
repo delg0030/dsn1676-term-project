@@ -41,9 +41,19 @@ wrapper {
 .mandalatwo {
   width: 400PX;
   position: absolute;
-  left: calc(40% - 90px);
-  animation: rotate 10s linear infinite;
+  left: calc(40% - 85px);
+  animation: rotate 6s linear reverse infinite;
   transform-origin: center 240px;
+}
+
+.mandalathree {
+width: 200PX;
+  position: absolute;
+    top: 110px;
+  left: calc(50% - 110px);
+  animation: rotate 3s reverse infinite;
+  transform-origin: center 240px;
+
 }
 
 @-webkit-keyframes rotate {
