@@ -73,6 +73,12 @@ img {
     top: 2em;
 }
 
+.mandalas {
+ height: 600px;
+padding: 0;
+    
+}
+
 .js-box-show {
     display: block;
 }
