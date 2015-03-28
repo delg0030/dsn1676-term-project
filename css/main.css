@@ -241,7 +241,7 @@ padding: 0;
     
 .bound {
     position: absolute;
-    top: 70em;
+    top: 75em;
     left: 3em;
     margin: 0;
     padding: 0;
@@ -506,7 +506,7 @@ padding: 0;
     position: absolute;
     top: 50em;
     left: 3em;
-    padding: 0 20em
+    padding: 0 10em
 }
     
 .aboutme {;
