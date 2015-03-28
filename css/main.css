@@ -51,10 +51,11 @@ html {
 }
 
 .paragraph {
-    padding: 2em;
+    padding: 1em;
     font-family: 'Fjalla One', sans-serif;
-    font-size: 8px;
-    color: blue;
+    font-size: 15px;
+    color: #CC4444;
+    text-decoration: none;
 }
 
 .box {
@@ -119,6 +120,8 @@ padding: 0;
   }
 
 } 
+
+
 
 @media only screen and (min-width:20em) {
 
@@ -236,6 +239,22 @@ padding: 0;
     width: 100px;
 }
     
+.bound {
+    position: absolute;
+    top: 70em;
+    left: 3em;
+    margin: 0;
+    padding: 0;
+}
+    
+.aboutme {;
+    font-size: 50px;
+    font-family:'Fjalla One', sans-serif;
+    color: #660033;
+    padding: 0;
+    margin: 0;
+}
+    
 }
 
 @media only screen and (min-width: 38em) {
@@ -350,6 +369,20 @@ padding: 0;
     position: absolute;
     left: 30em;
     width: 100px;
+}
+    
+.bound {
+    position: absolute;
+    top: 50em;
+    left: 3em;
+    padding: 0 10em
+}
+    
+.aboutme {;
+    font-size: 50px;
+    font-family:'Fjalla One', sans-serif;
+    color: #660033;
+    text-align: center;
 }
 
 }
@@ -469,6 +502,20 @@ padding: 0;
     width: 100px;
 }
     
+.bound {
+    position: absolute;
+    top: 50em;
+    left: 3em;
+    padding: 0 20em
+}
+    
+.aboutme {;
+    font-size: 50px;
+    font-family:'Fjalla One', sans-serif;
+    color: #660033;
+    text-align: center;
+}
+    
     
 }
     
@@ -584,4 +631,21 @@ padding: 0;
     left: 50em;
     width: 100px;
 }
+
+.bound {
+    position: absolute;
+    top: 45em;
+    left: 3em;
+    padding: 0 20em
+}
+    
+.aboutme {;
+    font-size: 50px;
+    font-family:'Fjalla One', sans-serif;
+    color: #660033;
+    text-align: center;
+}
+    
+
+        
 }
