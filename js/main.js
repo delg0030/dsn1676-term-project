@@ -28,3 +28,5 @@ $btnCollapsethree.on('click', function () {
     $panelthree.toggleClass('js-panel-collapsethree')
     
 });
+
+$('.paragraph').localScroll();

@@ -51,15 +51,16 @@ html {
 }
 
 .paragraph {
-    padding: 1em;
+    padding: 2em;
     font-family: 'Fjalla One', sans-serif;
-    font-size: 15px;
+    font-size: 8px;
+    color: blue;
 }
 
 .box {
-    height: 50px;
+    height: 300px;
     top: calc(50% - 50px);
-    width: 200px;
+    width: 500px;
     background-color: white;
     display: none;
     position: absolute;
