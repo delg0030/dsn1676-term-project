@@ -29,4 +29,4 @@ $btnCollapsethree.on('click', function () {
     
 });
 
-$('.nav').localScroll();
+$('.paragraph').localScroll();
