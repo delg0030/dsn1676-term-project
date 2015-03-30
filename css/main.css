@@ -675,3 +675,12 @@ padding: 0;
 #path {
  transition: all 200ms linear;   
 }
+
+.the-text {
+    opacity: 0;
+    transition: all 200ms linear;
+}
+
+.cupcake:hover .the-text {
+    opacity: 1;
+}
