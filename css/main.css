@@ -666,7 +666,12 @@ padding: 0;
     color: #660033;
     text-align: center;
 }
-    
+}
 
-        
+.cupcake:hover #path {
+    fill: grey;
+}
+
+#path {
+ transition: all 200ms linear;   
 }
