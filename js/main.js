@@ -30,3 +30,5 @@ $btnCollapsethree.on('click', function () {
 });
 
 $('.navbar').localScroll();
+
+$('.bar').localScroll();
