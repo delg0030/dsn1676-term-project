@@ -26,6 +26,11 @@ html {
   margin: 0 auto;
 }
 
+body {
+    overflow-x: hidden;
+}
+    
+    
 .navbar {
     height: 100px;
     background-color: black;
@@ -129,6 +134,7 @@ padding: 0;
   }
 
 } 
+
 
 
 
@@ -254,9 +260,7 @@ padding: 0;
 .bound {
     position: absolute;
     top: 75em;
-    left: 3em;
     margin: 0;
-    padding: 0;
 }
     
 .aboutme {
@@ -265,6 +269,31 @@ padding: 0;
     color: #660033;
     padding: 0;
     margin: 0;
+}
+
+.cupcake {
+    display: block;
+    margin: 0 auto;
+}
+    
+.light {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+
+}
+
+.st0 {
+fill: url(#beam_1_);
+}
+
+#light {
+    opacity: 0;
+    transition: all 1s linear;
+}
+
+.js-active #light {
+opacity: 1;
 }
 
 }
@@ -399,6 +428,24 @@ padding: 0;
     color: #660033;
     text-align: center;
 }
+    
+.light {
+    width: 300px;
+    height: 300px;
+}
+
+.st0 {
+fill: url(#beam_1_);
+}
+
+#light {
+    opacity: 0;
+    transition: all 1s linear;
+}
+
+.js-active #light {
+opacity: 1;
+}
 
 }
 
@@ -532,6 +579,28 @@ padding: 0;
     font-family:'Fjalla One', sans-serif;
     color: #660033;
     text-align: center;
+}
+    
+.light {
+    width: 300px;
+    height: 300px;
+}
+
+#middle {
+    width: 150px;
+}
+
+.st0 {
+fill: url(#beam_1_);
+}
+
+#light {
+    opacity: 0;
+    transition: all 1s linear;
+}
+
+.js-active #light {
+opacity: 1;
 }
     
     
@@ -683,4 +752,26 @@ padding: 0;
 
 .cupcake:hover .the-text {
     opacity: 1;
+}
+
+.light {
+    width: 300px;
+    height: 300px;
+}
+
+#middle {
+    width: 150px;
+}
+
+.st0 {
+fill: url(#beam_1_);
+}
+
+#light {
+    opacity: 0;
+    transition: all 1s linear;
+}
+
+.js-active #light {
+opacity: 1;
 }

@@ -10,6 +10,13 @@ var $paneltwo = $('.paneltwo');
 var $btnCollapsethree = $('.btn-collapse-expandthree');
 var $panelthree = $('.panelthree');
 
+var $light = $('.light');
+
+$light.waypoint(function () {
+$light.toggleClass('js-active');
+}, {offset: '60%'} );
+
+
 $btnShow.on('click', function () {
     $box.toggleClass('js-box-show');
 });
