@@ -61,10 +61,16 @@ body {
     margin: 0;
 }
     
-    
+.nav {
+     background-color: black;
+    position: relative;
+}
+
 .navbar {
     height: 100px;
-    background-color: black;
+    position: absolute;
+    right: 2em;
+    top: 2em;
     
 }
 
@@ -102,7 +108,10 @@ body {
     text-decoration: none;
     text-align: right;
     display: block;
-    float: right;
+}
+
+.navbar li {
+ display: inline-block;
 }
 
 
