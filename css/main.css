@@ -21,19 +21,51 @@ html {
     box-sizing: inherit;
 }
 
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    padding: 0.5em 0.75em;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+    
+.skip-links a:focus {
+    top: 0;
+}
+
 .img {
   display: block;
   margin: 0 auto;
 }
 
+.style {
+ text-decoration: none;
+color: salmon;
+}
+
+.list {
+ color: salmon;   
+}
+
 body {
     overflow-x: hidden;
+    margin: 0;
 }
     
     
 .navbar {
     height: 100px;
     background-color: black;
+    
 }
 
 .wrapper {
@@ -44,16 +76,35 @@ body {
 }
 
 .navimg {
-    color: white;
     width: 70px;
     height: 70px;
     margin: 0;
     padding: 1rem;
     text-align:left;
-    font-family: 'Fjalla One', sans-serif;
     font-size: 2em;
     text-decoration: none;
 }
+
+.nav {
+  padding: 0;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+}
+
+.navlinks {
+    color: #e2e2e2;
+    font-size: 1em;
+    font-family: 'Helvetica', sans-serif;
+    text-decoration: none;
+    text-align: right;
+    display: block;
+    float: right;
+}
+
 
 .paragraph {
     padding: 1em;
@@ -237,17 +288,6 @@ padding: 0;
 .js-panel-collapsethree {
     max-height: 10em;
     
-}
-    
-.toggle {
-    padding: 0;
-    width: 50px;
-    height: 100px;
-    position: absolute;
-    left: 20em;
-    top: -9em;
-    background-color: black;
-    border: none;
 }
     
 .js-box-show {
