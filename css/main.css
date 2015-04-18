@@ -175,8 +175,8 @@ padding: 0;
     animation: rotate 40s linear infinite;
 }
 @-webkit-keyframes mandalathree {
-     0% {transform: rotate(0deg);}
-    100% {transform: rotate(180deg);}
+     0% {transform: rotate(10deg);}
+    100% {transform: rotate(100deg);}
 }
 @keyframes mandalathree {
     0% {transform: rotate(0deg);}
