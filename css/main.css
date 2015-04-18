@@ -31,7 +31,7 @@ html {
     position: absolute;
     top: -3em;
     padding: 0.5em 0.75em;
-    background-color: #000;
+    background-color: limegreen;
     color: #fff;
     font-weight: bold;
     font-size: 1.25em;
@@ -60,7 +60,11 @@ body {
     overflow-x: hidden;
     margin: 0;
 }
-    
+  
+a:focus {
+    outline: 3px solid limegreen;
+}
+
 .nav {
      background-color: black;
     position: relative;
@@ -139,13 +143,25 @@ padding: 0;
     
 }
 
+.mandalaone{
+ -webkit-animation: rotate 40s linear infinite;
+    animation: rotate 40s linear infinite;
+}
+@-webkit-keyframes mandalaone {
+     0% {transform: rotate(0deg);}
+    100% {transform: rotate(180deg);}
+}
+@keyframes mandalaone {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(180deg);}
+}
 .mandalaone {
-    width: 400PX;
+    width: 400px;
     position: absolute;
     left: calc(50% - 200px);
     top: 10px;
-    animation: rotate 40s linear infinite;
 }
+
 
 .mandalatwo {
     width: 300PX;
@@ -154,6 +170,18 @@ padding: 0;
     animation: rotate 100s linear infinite;
 }
 
+.mandalathree{
+ -webkit-animation: rotate 40s linear infinite;
+    animation: rotate 40s linear infinite;
+}
+@-webkit-keyframes mandalathree {
+     0% {transform: rotate(0deg);}
+    100% {transform: rotate(180deg);}
+}
+@keyframes mandalathree {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(180deg);}
+}
 .mandalathree {
     width: 200PX;
     position: absolute;
@@ -176,6 +204,16 @@ padding: 0;
     height: 200px;
     color: white;
     text-decoration:none;
+    
+}
+
+.script {
+    font-size: 9px;
+    padding: .5em;
+    margin: 1.5em;
+    background-color: #282828;
+    color: white;
+    
     
 }
 
